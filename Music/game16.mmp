@@ -3,7 +3,7 @@
 <lmms-project creatorversion="1.2.2" creator="LMMS" type="song" version="1.0">
   <head masterpitch="0" timesig_numerator="4" mastervol="100" timesig_denominator="4" bpm="180"/>
   <song>
-    <trackcontainer y="-35" minimized="0" maximized="0" visible="1" type="song" width="1426" x="13" height="500">
+    <trackcontainer y="6" minimized="0" maximized="0" visible="1" type="song" width="1426" x="13" height="500">
       <track type="0" muted="0" solo="0" name="Sweep Synth">
         <instrumenttrack basenote="57" pan="0" vol="60" pitchrange="1" usemasterpitch="1" pitch="0" fxch="0">
           <instrument name="zynaddsubfx">
@@ -1710,10 +1710,60 @@ GPL V 2 or later</string>
           <note key="52" pos="720" pan="0" vol="100" len="24"/>
           <note key="48" pos="720" pan="0" vol="100" len="24"/>
         </pattern>
+        <pattern steps="16" pos="9216" type="1" muted="0" name="">
+          <note key="60" pos="0" pan="0" vol="100" len="48"/>
+          <note key="57" pos="0" pan="0" vol="100" len="48"/>
+          <note key="53" pos="0" pan="0" vol="100" len="48"/>
+          <note key="50" pos="0" pan="0" vol="100" len="48"/>
+          <note key="60" pos="72" pan="0" vol="100" len="48"/>
+          <note key="57" pos="72" pan="0" vol="100" len="48"/>
+          <note key="53" pos="72" pan="0" vol="100" len="48"/>
+          <note key="50" pos="72" pan="0" vol="100" len="48"/>
+          <note key="60" pos="144" pan="0" vol="100" len="48"/>
+          <note key="57" pos="144" pan="0" vol="100" len="48"/>
+          <note key="53" pos="144" pan="0" vol="100" len="48"/>
+          <note key="50" pos="144" pan="0" vol="100" len="48"/>
+          <note key="60" pos="216" pan="0" vol="100" len="48"/>
+          <note key="57" pos="216" pan="0" vol="100" len="48"/>
+          <note key="53" pos="216" pan="0" vol="100" len="48"/>
+          <note key="50" pos="216" pan="0" vol="100" len="48"/>
+          <note key="60" pos="288" pan="0" vol="100" len="24"/>
+          <note key="57" pos="288" pan="0" vol="100" len="24"/>
+          <note key="53" pos="288" pan="0" vol="100" len="24"/>
+          <note key="50" pos="288" pan="0" vol="100" len="24"/>
+          <note key="60" pos="336" pan="0" vol="100" len="24"/>
+          <note key="57" pos="336" pan="0" vol="100" len="24"/>
+          <note key="53" pos="336" pan="0" vol="100" len="24"/>
+          <note key="50" pos="336" pan="0" vol="100" len="24"/>
+          <note key="60" pos="384" pan="0" vol="100" len="48"/>
+          <note key="57" pos="384" pan="0" vol="100" len="48"/>
+          <note key="52" pos="384" pan="0" vol="100" len="48"/>
+          <note key="48" pos="384" pan="0" vol="100" len="48"/>
+          <note key="60" pos="456" pan="0" vol="100" len="48"/>
+          <note key="57" pos="456" pan="0" vol="100" len="48"/>
+          <note key="52" pos="456" pan="0" vol="100" len="48"/>
+          <note key="48" pos="456" pan="0" vol="100" len="48"/>
+          <note key="59" pos="528" pan="0" vol="100" len="48"/>
+          <note key="55" pos="528" pan="0" vol="100" len="48"/>
+          <note key="52" pos="528" pan="0" vol="100" len="48"/>
+          <note key="48" pos="528" pan="0" vol="100" len="48"/>
+          <note key="59" pos="594" pan="0" vol="100" len="54"/>
+          <note key="55" pos="594" pan="0" vol="100" len="54"/>
+          <note key="52" pos="594" pan="0" vol="100" len="54"/>
+          <note key="48" pos="594" pan="0" vol="100" len="54"/>
+          <note key="59" pos="672" pan="0" vol="100" len="24"/>
+          <note key="55" pos="672" pan="0" vol="100" len="24"/>
+          <note key="52" pos="672" pan="0" vol="100" len="24"/>
+          <note key="48" pos="672" pan="0" vol="100" len="24"/>
+          <note key="59" pos="720" pan="0" vol="100" len="24"/>
+          <note key="55" pos="720" pan="0" vol="100" len="24"/>
+          <note key="52" pos="720" pan="0" vol="100" len="24"/>
+          <note key="48" pos="720" pan="0" vol="100" len="24"/>
+        </pattern>
       </track>
       <track type="1" muted="0" solo="0" name="Beat/Bassline 1">
         <bbtrack>
-          <trackcontainer y="300" minimized="0" maximized="0" visible="0" type="bbtrackcontainer" width="700" x="444" height="300">
+          <trackcontainer y="341" minimized="0" maximized="0" visible="0" type="bbtrackcontainer" width="700" x="444" height="300">
             <track type="0" muted="0" solo="0" name="Carla Rack">
               <instrumenttrack basenote="57" pan="0" vol="200" pitchrange="1" usemasterpitch="1" pitch="0" fxch="0">
                 <instrument name="carlarack">
@@ -1822,8 +1872,8 @@ eyJVaVNldHRpbmdzIjogCnsKIk1haW5WaWV3IjogMCwgCiJTYW1wbGVzQnJvd3NlciI6IHsgCiAgICAi
               </pattern>
             </track>
             <track type="0" muted="0" solo="0" name="hat.ds">
-              <instrumenttrack basenote="57" vol="100" pitchrange="1" usemasterpitch="1" pitch="0" fxch="0">
-                <pan value="-16.899998" scale_type="linear" id="2262341"/>
+              <instrumenttrack basenote="57" vol="80" pitchrange="1" usemasterpitch="1" pitch="0" fxch="0">
+                <pan value="-0.69999695" scale_type="linear" id="2262341"/>
                 <instrument name="audiofileprocessor">
                   <audiofileprocessor eframe="1" reversed="0" lframe="0" amp="100" interp="1" sframe="0" src="drumsynth/r_n_b/hat.ds" looped="0" stutter="0"/>
                 </instrument>
@@ -1904,7 +1954,7 @@ eyJVaVNldHRpbmdzIjogCnsKIk1haW5WaWV3IjogMCwgCiJTYW1wbGVzQnJvd3NlciI6IHsgCiAgICAi
               </pattern>
             </track>
             <track type="0" muted="0" solo="0" name="snare&amp;hat.ds">
-              <instrumenttrack basenote="57" pan="0" vol="60.799999" pitchrange="1" usemasterpitch="1" pitch="0" fxch="0">
+              <instrumenttrack basenote="57" pan="0" vol="50" pitchrange="1" usemasterpitch="1" pitch="0" fxch="0">
                 <instrument name="audiofileprocessor">
                   <audiofileprocessor eframe="1" reversed="0" lframe="0" amp="100" interp="1" sframe="0" src="drumsynth/r_n_b/snare&amp;hat.ds" looped="0" stutter="0"/>
                 </instrument>
@@ -2080,13 +2130,13 @@ eyJVaVNldHRpbmdzIjogCnsKIk1haW5WaWV3IjogMCwgCiJTYW1wbGVzQnJvd3NlciI6IHsgCiAgICAi
       </track>
       <track type="1" muted="0" solo="0" name="Beat/Bassline 5">
         <bbtrack/>
-        <bbtco usestyle="1" pos="6336" muted="0" color="4286611584" name="" len="2880"/>
+        <bbtco usestyle="1" pos="6336" muted="0" color="4286611584" name="" len="3648"/>
       </track>
       <track type="1" muted="0" solo="0" name="Beat/Bassline 0">
         <bbtrack/>
         <bbtco usestyle="1" pos="4608" muted="0" color="4286611584" name="" len="1536"/>
         <bbtco usestyle="1" pos="6528" muted="0" color="4286611584" name="" len="384"/>
-        <bbtco usestyle="1" pos="6912" muted="0" color="4286611584" name="" len="2304"/>
+        <bbtco usestyle="1" pos="6912" muted="0" color="4286611584" name="" len="3072"/>
       </track>
       <track type="0" muted="0" solo="0" name="jaguar_hats.ds">
         <instrumenttrack basenote="57" pan="0" vol="30" pitchrange="1" usemasterpitch="1" pitch="0" fxch="0">
@@ -2113,7 +2163,7 @@ eyJVaVNldHRpbmdzIjogCnsKIk1haW5WaWV3IjogMCwgCiJTYW1wbGVzQnJvd3NlciI6IHsgCiAgICAi
             <audiofileprocessor eframe="0.5560019" reversed="0" lframe="0.296" amp="100" interp="1" sframe="0" src="drumsynth/ferraro/radio_hats.ds" looped="1" stutter="0"/>
           </instrument>
           <eldata fres="0.5" ftype="0" fcut="14000" fwet="0">
-            <elvol ctlenvamt="0" lpdel="0" dec="0.77200001" lshp="0" lamt="0" att="0" latt="0" sustain="0.048" pdel="0" x100="0" lspd_numerator="4" lspd="0.1" lspd_syncmode="0" userwavefile="" lspd_denominator="4" hold="0" amt="1" rel="0.1"/>
+            <elvol ctlenvamt="0" lpdel="0" dec="0.77200001" lshp="0" lamt="0" att="0.12" latt="0" sustain="0.048" pdel="0" x100="0" lspd_numerator="4" lspd="0.1" lspd_syncmode="0" userwavefile="" lspd_denominator="4" hold="0" amt="1" rel="0.1"/>
             <elcut ctlenvamt="0" lpdel="0" dec="0.5" lshp="0" lamt="0" att="0" latt="0" sustain="0.5" pdel="0" x100="0" lspd_numerator="4" lspd="0.1" lspd_syncmode="0" userwavefile="" lspd_denominator="4" hold="0.5" amt="0" rel="0.1"/>
             <elres ctlenvamt="0" lpdel="0" dec="0.5" lshp="0" lamt="0" att="0" latt="0" sustain="0.5" pdel="0" x100="0" lspd_numerator="4" lspd="0.1" lspd_syncmode="0" userwavefile="" lspd_denominator="4" hold="0.5" amt="0" rel="0.1"/>
           </eldata>
@@ -2126,6 +2176,38 @@ eyJVaVNldHRpbmdzIjogCnsKIk1haW5WaWV3IjogMCwgCiJTYW1wbGVzQnJvd3NlciI6IHsgCiAgICAi
           <note key="57" pos="0" pan="0" vol="100" len="384"/>
         </pattern>
       </track>
+      <track type="0" muted="0" solo="0" name="TR606_Cymbal.ds">
+        <instrumenttrack basenote="57" pan="0" vol="175.2" pitchrange="1" usemasterpitch="1" pitch="0" fxch="0">
+          <instrument name="audiofileprocessor">
+            <audiofileprocessor eframe="1" reversed="0" lframe="0" amp="100" interp="1" sframe="0" src="drumsynth/tr606/TR606_Cymbal.ds" looped="0" stutter="0"/>
+          </instrument>
+          <eldata fres="0.5" ftype="0" fcut="14000" fwet="0">
+            <elvol ctlenvamt="0" lpdel="0" dec="0.5" lshp="0" lamt="0" att="0" latt="0" sustain="0.5" pdel="0" x100="0" lspd_numerator="4" lspd="0.1" lspd_syncmode="0" userwavefile="" lspd_denominator="4" hold="0.5" amt="0" rel="0.1"/>
+            <elcut ctlenvamt="0" lpdel="0" dec="0.5" lshp="0" lamt="0" att="0" latt="0" sustain="0.5" pdel="0" x100="0" lspd_numerator="4" lspd="0.1" lspd_syncmode="0" userwavefile="" lspd_denominator="4" hold="0.5" amt="0" rel="0.1"/>
+            <elres ctlenvamt="0" lpdel="0" dec="0.5" lshp="0" lamt="0" att="0" latt="0" sustain="0.5" pdel="0" x100="0" lspd_numerator="4" lspd="0.1" lspd_syncmode="0" userwavefile="" lspd_denominator="4" hold="0.5" amt="0" rel="0.1"/>
+          </eldata>
+          <chordcreator chord="0" chordrange="1" chord-enabled="0"/>
+          <arpeggiator arptime_syncmode="0" arptime_denominator="4" arpgate="100" arpcycle="0" arpskip="0" arptime="200" arpmode="0" arp="0" arp-enabled="0" arptime_numerator="4" arpdir="0" arprange="1" arpmiss="0"/>
+          <midiport inputchannel="0" outputcontroller="0" basevelocity="63" fixedinputvelocity="-1" outputprogram="1" fixedoutputvelocity="-1" fixedoutputnote="-1" readable="0" outputchannel="1" inputcontroller="0" writable="0"/>
+          <fxchain numofeffects="0" enabled="0"/>
+        </instrumenttrack>
+        <pattern steps="16" pos="6912" type="1" muted="0" name="TR606_Cymbal.ds">
+          <note key="57" pos="144" pan="0" vol="100" len="240"/>
+          <note key="57" pos="552" pan="0" vol="100" len="216"/>
+        </pattern>
+        <pattern steps="16" pos="7680" type="1" muted="0" name="">
+          <note key="57" pos="144" pan="0" vol="100" len="240"/>
+          <note key="57" pos="552" pan="0" vol="100" len="216"/>
+        </pattern>
+        <pattern steps="16" pos="8448" type="1" muted="0" name="">
+          <note key="57" pos="144" pan="0" vol="100" len="240"/>
+          <note key="57" pos="552" pan="0" vol="100" len="216"/>
+        </pattern>
+        <pattern steps="16" pos="9216" type="1" muted="0" name="">
+          <note key="57" pos="144" pan="0" vol="100" len="240"/>
+          <note key="57" pos="552" pan="0" vol="100" len="216"/>
+        </pattern>
+      </track>
     </trackcontainer>
     <track type="6" muted="0" solo="0" name="Automation track">
       <automationtrack/>
@@ -2135,15 +2217,15 @@ eyJVaVNldHRpbmdzIjogCnsKIk1haW5WaWV3IjogMCwgCiJTYW1wbGVzQnJvd3NlciI6IHsgCiAgICAi
       <automationpattern pos="0" tens="1" mute="0" prog="0" len="192" name="Master volume"/>
       <automationpattern pos="0" tens="1" mute="0" prog="0" len="192" name="Master pitch"/>
     </track>
-    <fxmixer y="297" minimized="0" maximized="0" visible="0" width="543" x="12" height="333">
+    <fxmixer y="338" minimized="0" maximized="0" visible="0" width="543" x="12" height="333">
       <fxchannel soloed="0" volume="0.69999999" num="0" muted="0" name="Master">
         <fxchain numofeffects="0" enabled="1"/>
       </fxchannel>
     </fxmixer>
-    <ControllerRackView y="269" minimized="0" maximized="0" visible="0" width="350" x="680" height="200"/>
-    <pianoroll y="310" minimized="0" maximized="0" visible="0" width="860" x="412" height="480"/>
-    <automationeditor y="368" minimized="0" maximized="0" visible="0" width="860" x="405" height="400"/>
-    <projectnotes y="520" minimized="0" maximized="0" visible="1" width="860" x="76" height="400"><![CDATA[<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+    <ControllerRackView y="310" minimized="0" maximized="0" visible="0" width="350" x="680" height="200"/>
+    <pianoroll y="351" minimized="0" maximized="0" visible="0" width="860" x="412" height="480"/>
+    <automationeditor y="409" minimized="0" maximized="0" visible="0" width="860" x="405" height="400"/>
+    <projectnotes y="516" minimized="0" maximized="0" visible="1" width="860" x="54" height="400"><![CDATA[<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
 <html><head><meta name="qrichtext" content="1" /><style type="text/css">
 p, li { white-space: pre-wrap; }
 </style></head><body style=" font-family:'Noto Sans'; font-size:10pt; font-weight:400; font-style:normal;">
