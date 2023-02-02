@@ -1,0 +1,157 @@
+<?xml version="1.0"?>
+<!DOCTYPE lmms-project>
+<lmms-project type="song" creator="LMMS" creatorversion="1.2.2" version="1.0">
+  <head bpm="100" mastervol="100" masterpitch="0">
+    <timesig_numerator scale_type="linear" value="4" id="1830140"/>
+    <timesig_denominator scale_type="linear" value="4" id="2558538"/>
+  </head>
+  <song>
+    <trackcontainer type="song" height="624" minimized="0" x="231" visible="1" maximized="0" width="1175" y="109">
+      <track type="5" solo="0" muted="0" name="Automation track">
+        <automationtrack/>
+        <automationpattern mute="0" pos="0" tens="1" len="576" name="ReverbSC>>Size" prog="1">
+          <time pos="0" value="0.63999999"/>
+          <time pos="576" value="0.94"/>
+          <object id="7562608"/>
+          <object id="7562608"/>
+          <object id="7562608"/>
+          <object id="7562608"/>
+          <object id="7562608"/>
+          <object id="7562608"/>
+          <object id="7562608"/>
+          <object id="7562608"/>
+        </automationpattern>
+      </track>
+      <track type="0" solo="0" muted="0" name="space_strings02.ogg">
+        <instrumenttrack pitch="0" pitchrange="1" vol="70" pan="0" usemasterpitch="1" fxch="0" basenote="57">
+          <instrument name="audiofileprocessor">
+            <audiofileprocessor lframe="0" looped="0" eframe="1" src="stringsnpads/space_strings02.ogg" stutter="0" interp="2" amp="100" reversed="0" sframe="0"/>
+          </instrument>
+          <eldata fres="0.5" fwet="0" ftype="0" fcut="14000">
+            <elvol pdel="0" lspd_numerator="4" x100="0" lspd_denominator="4" rel="1.2640001" lspd="0.1" att="0" lpdel="0" lspd_syncmode="0" lamt="0" ctlenvamt="0" hold="0.5" latt="0" dec="2" userwavefile="" sustain="0.62" lshp="0" amt="0"/>
+            <elcut pdel="0" lspd_numerator="4" x100="0" lspd_denominator="4" rel="0.1" lspd="0.1" att="0" lpdel="0" lspd_syncmode="0" lamt="0" ctlenvamt="0" hold="0.5" latt="0" dec="0.5" userwavefile="" sustain="0.5" lshp="0" amt="0"/>
+            <elres pdel="0" lspd_numerator="4" x100="0" lspd_denominator="4" rel="0.1" lspd="0.1" att="0" lpdel="0" lspd_syncmode="0" lamt="0" ctlenvamt="0" hold="0.5" latt="0" dec="0.5" userwavefile="" sustain="0.5" lshp="0" amt="0"/>
+          </eldata>
+          <chordcreator chord-enabled="0" chord="0" chordrange="1"/>
+          <arpeggiator arpdir="0" arptime_numerator="4" arptime="200" arp-enabled="0" arp="0" arprange="1" arptime_syncmode="0" arptime_denominator="4" arpmiss="0" arpskip="0" arpmode="0" arpgate="100" arpcycle="0"/>
+          <midiport outputcontroller="0" fixedoutputvelocity="-1" outputprogram="1" readable="0" fixedinputvelocity="-1" basevelocity="63" inputcontroller="0" inputchannel="0" fixedoutputnote="-1" writable="0" outputchannel="1"/>
+          <fxchain enabled="1" numofeffects="2">
+            <effect gate="0" on="0" autoquit_denominator="4" autoquit_numerator="4" autoquit="1" autoquit_syncmode="0" wet="1" name="ladspaeffect">
+              <ladspacontrols ports="12" link="1">
+                <port00 data_denominator="4" data_numerator="4" data="10" data_syncmode="0" link="1"/>
+                <port01 data_denominator="4" data_numerator="4" data_syncmode="0" link="1">
+                  <data scale_type="log" value="5" id="6279413"/>
+                </port01>
+                <port02 data="1" link="1"/>
+                <port03 data="1" link="1"/>
+                <port04 data="1" link="1"/>
+                <port05 data="0.25" link="1"/>
+                <port10 data_denominator="4" data_numerator="4" data="10" data_syncmode="0"/>
+                <port11 data_denominator="4" data_numerator="4" data_syncmode="0">
+                  <data scale_type="log" value="5" id="3974804"/>
+                </port11>
+                <port12 data="1"/>
+                <port13 data="1"/>
+                <port14 data="1"/>
+                <port15 data="0.25"/>
+              </ladspacontrols>
+              <key>
+                <attribute value="caps" name="file"/>
+                <attribute value="ChorusI" name="plugin"/>
+              </key>
+            </effect>
+            <effect gate="0" on="1" autoquit_denominator="4" autoquit_numerator="4" autoquit="1" autoquit_syncmode="0" wet="1" name="ladspaeffect">
+              <ladspacontrols ports="20" link="1">
+                <port01 data="0" link="1"/>
+                <port02 data="0" link="1"/>
+                <port03 data="5" link="1"/>
+                <port04 data="0" link="1"/>
+                <port05 data="8" link="1"/>
+                <port06 data="0" link="1"/>
+                <port07 data="0" link="1"/>
+                <port08 data="-3.6900001" link="1"/>
+                <port09 data="0" link="1"/>
+                <port010 data="0" link="1"/>
+                <port11 data="0"/>
+                <port12 data="0"/>
+                <port13 data="5"/>
+                <port14 data="0"/>
+                <port15 data="8"/>
+                <port16 data="0"/>
+                <port17 data="0"/>
+                <port18 data="-3.6900001"/>
+                <port19 data="0"/>
+                <port110 data="0"/>
+              </ladspacontrols>
+              <key>
+                <attribute value="caps" name="file"/>
+                <attribute value="Eq" name="plugin"/>
+              </key>
+            </effect>
+          </fxchain>
+        </instrumenttrack>
+        <pattern type="1" pos="0" steps="16" muted="0" name="space_strings02.ogg">
+          <note pos="0" vol="100" len="576" pan="0" key="60"/>
+          <note pos="96" vol="100" len="480" pan="0" key="59"/>
+          <note pos="192" vol="100" len="384" pan="0" key="52"/>
+        </pattern>
+      </track>
+    </trackcontainer>
+    <track type="6" solo="0" muted="0" name="Automation track">
+      <automationtrack/>
+      <automationpattern mute="0" pos="0" tens="1" len="192" name="Numerator" prog="0"/>
+      <automationpattern mute="0" pos="0" tens="1" len="192" name="Denominator" prog="0"/>
+      <automationpattern mute="0" pos="0" tens="1" len="192" name="Tempo" prog="0"/>
+      <automationpattern mute="0" pos="0" tens="1" len="192" name="Master volume" prog="0"/>
+      <automationpattern mute="0" pos="0" tens="1" len="192" name="Master pitch" prog="0"/>
+      <automationpattern mute="0" pos="0" tens="1" len="0" name="Numerator" prog="0">
+        <time pos="0" value="4"/>
+        <object id="1830140"/>
+      </automationpattern>
+      <automationpattern mute="0" pos="0" tens="1" len="0" name="Denominator" prog="0">
+        <time pos="0" value="4"/>
+        <object id="2558538"/>
+      </automationpattern>
+    </track>
+    <fxmixer height="333" minimized="0" x="57" visible="0" maximized="0" width="543" y="518">
+      <fxchannel soloed="0" volume="0.5" muted="0" num="0" name="Master">
+        <fxchain enabled="1" numofeffects="2">
+          <effect gate="0" on="1" autoquit_denominator="4" autoquit_numerator="4" autoquit="1" autoquit_syncmode="0" wet="0.5" name="reverbsc">
+            <ReverbSCControls output_gain="0" input_gain="0" color="15000">
+              <size scale_type="linear" value="0.81135416" id="7562608"/>
+            </ReverbSCControls>
+            <key/>
+          </effect>
+          <effect gate="0" on="1" autoquit_denominator="4" autoquit_numerator="4" autoquit="1" autoquit_syncmode="0" wet="1" name="ladspaeffect">
+            <ladspacontrols ports="10">
+              <port02 data="9.0900002"/>
+              <port03 data="-16.470001"/>
+              <port04 data="5.4000001"/>
+              <port05 data="2.8800001"/>
+              <port06 data="0"/>
+              <port07 data="0"/>
+              <port08 data="-5"/>
+              <port09 data="9.3600006"/>
+              <port010 data="7.1100001"/>
+              <port011 data="-27.09"/>
+            </ladspacontrols>
+            <key>
+              <attribute value="caps" name="file"/>
+              <attribute value="Eq2x2" name="plugin"/>
+            </key>
+          </effect>
+        </fxchain>
+      </fxchannel>
+    </fxmixer>
+    <ControllerRackView height="200" minimized="0" x="896" visible="0" maximized="0" width="350" y="382"/>
+    <pianoroll height="490" minimized="0" x="31" visible="1" maximized="0" width="860" y="66"/>
+    <automationeditor height="400" minimized="0" x="632" visible="0" maximized="0" width="860" y="450"/>
+    <projectnotes height="400" minimized="0" x="700" visible="0" maximized="0" width="860" y="10"><![CDATA[<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+<html><head><meta name="qrichtext" content="1" /><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body style=" font-family:'Cantarell'; font-size:11pt; font-weight:400; font-style:normal;">
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p></body></html>]]></projectnotes>
+    <timeline lp1pos="1152" lp0pos="0" lpstate="1"/>
+    <controllers/>
+  </song>
+</lmms-project>

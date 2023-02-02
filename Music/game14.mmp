@@ -2201,11 +2201,11 @@
                         <UIsAlwaysOnTop>false</UIsAlwaysOnTop>
                         <MaxParameters>200</MaxParameters>
                         <UIBridgesTimeout>4000</UIBridgesTimeout>
-                        <LADSPA_PATH>/app/extensions/Plugins/ladspa:/app/lib/ladspa</LADSPA_PATH>
-                        <DSSI_PATH>/app/extensions/Plugins/dssi</DSSI_PATH>
-                        <LV2_PATH>/var/home/pastthepixels/.lv2:/app/extensions/Plugins/lv2:/app/lib/lv2</LV2_PATH>
-                        <VST2_PATH>/app/extensions/Plugins/vst</VST2_PATH>
-                        <VST3_PATH>/app/extensions/Plugins/vst3</VST3_PATH>
+                        <LADSPA_PATH>/usr/lib64/ladspa:/app/lib/ladspa</LADSPA_PATH>
+                        <DSSI_PATH>/usr/lib64/dssi</DSSI_PATH>
+                        <LV2_PATH>/var/home/pastthepixels/.lv2:/usr/lib64/lv2:/app/lib/lv2</LV2_PATH>
+                        <VST2_PATH>/usr/lib64/vst</VST2_PATH>
+                        <VST3_PATH>/usr/lib64/vst3</VST3_PATH>
                         <SF2_PATH>/var/home/pastthepixels/.sounds/sf2:/var/home/pastthepixels/.sounds/sf3:/usr/share/sounds/sf2:/usr/share/sounds/sf3:/usr/share/soundfonts</SF2_PATH>
                         <SFZ_PATH>/var/home/pastthepixels/.sounds/sfz:/usr/share/sounds/sfz</SFZ_PATH>
                         <JSFX_PATH/>
@@ -2398,11 +2398,11 @@ eyJVaVNldHRpbmdzIjogCnsKIk1haW5WaWV3IjogMCwgCiJTYW1wbGVzQnJvd3NlciI6IHsgCiAgICAi
                         <UIsAlwaysOnTop>false</UIsAlwaysOnTop>
                         <MaxParameters>200</MaxParameters>
                         <UIBridgesTimeout>4000</UIBridgesTimeout>
-                        <LADSPA_PATH>/app/extensions/Plugins/ladspa:/app/lib/ladspa</LADSPA_PATH>
-                        <DSSI_PATH>/app/extensions/Plugins/dssi</DSSI_PATH>
-                        <LV2_PATH>/var/home/pastthepixels/.lv2:/app/extensions/Plugins/lv2:/app/lib/lv2</LV2_PATH>
-                        <VST2_PATH>/app/extensions/Plugins/vst</VST2_PATH>
-                        <VST3_PATH>/app/extensions/Plugins/vst3</VST3_PATH>
+                        <LADSPA_PATH>/usr/lib64/ladspa:/app/lib/ladspa</LADSPA_PATH>
+                        <DSSI_PATH>/usr/lib64/dssi</DSSI_PATH>
+                        <LV2_PATH>/var/home/pastthepixels/.lv2:/usr/lib64/lv2:/app/lib/lv2</LV2_PATH>
+                        <VST2_PATH>/usr/lib64/vst</VST2_PATH>
+                        <VST3_PATH>/usr/lib64/vst3</VST3_PATH>
                         <SF2_PATH>/var/home/pastthepixels/.sounds/sf2:/var/home/pastthepixels/.sounds/sf3:/usr/share/sounds/sf2:/usr/share/sounds/sf3:/usr/share/soundfonts</SF2_PATH>
                         <SFZ_PATH>/var/home/pastthepixels/.sounds/sfz:/usr/share/sounds/sfz</SFZ_PATH>
                         <JSFX_PATH/>
