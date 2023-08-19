@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!DOCTYPE lmms-project>
+<lmms-project version="1.0" type="instrumenttracksettings" creator="LMMS" creatorversion="1.2.2">
+  <head/>
+  <instrumenttracksettings solo="0" name="Kicker" type="0" muted="0">
+    <instrumenttrack fxch="1" pan="0" vol="180.8" usemasterpitch="1" basenote="57" pitch="0" pitchrange="1">
+      <instrument name="kicker">
+        <kicker distend="0" noise="0" startnote="0" endfreq="44" decay="220" version="1" slope="0.048999999" startfreq="925" decay_denominator="4" decay_numerator="4" decay_syncmode="0" gain="3.1500001" env="0.178" dist="0" endnote="0" click="0"/>
+      </instrument>
+      <eldata ftype="0" fres="0.5" fcut="14000" fwet="0">
+        <elvol latt="0" lamt="0" lpdel="0" lspd_denominator="4" att="0" lshp="0" dec="0.5" rel="0.1" userwavefile="" sustain="0.5" x100="0" pdel="0" amt="1" hold="0.292" ctlenvamt="0" lspd_numerator="4" lspd_syncmode="0" lspd="0.1"/>
+        <elcut latt="0" lamt="0" lpdel="0" lspd_denominator="4" att="0" lshp="0" dec="0.5" rel="0.1" userwavefile="" sustain="0.5" x100="0" pdel="0" amt="0" hold="0.5" ctlenvamt="0" lspd_numerator="4" lspd_syncmode="0" lspd="0.1"/>
+        <elres latt="0" lamt="0" lpdel="0" lspd_denominator="4" att="0" lshp="0" dec="0.5" rel="0.1" userwavefile="" sustain="0.5" x100="0" pdel="0" amt="0" hold="0.5" ctlenvamt="0" lspd_numerator="4" lspd_syncmode="0" lspd="0.1"/>
+      </eldata>
+      <chordcreator chord="0" chord-enabled="0" chordrange="1"/>
+      <arpeggiator arpskip="0" arptime_numerator="4" arprange="1" arptime_denominator="4" arpdir="0" arptime="200" arpcycle="0" arp-enabled="0" arpgate="100" arp="0" arpmiss="0" arptime_syncmode="0" arpmode="0"/>
+      <midiport outputprogram="1" fixedinputvelocity="-1" writable="0" inputcontroller="0" fixedoutputnote="-1" outputcontroller="0" fixedoutputvelocity="-1" inputchannel="0" outputchannel="1" basevelocity="63" readable="0"/>
+      <fxchain enabled="1" numofeffects="1">
+        <effect name="eq" wet="1" autoquit_numerator="4" gate="0" autoquit_denominator="4" autoquit="1" autoquit_syncmode="0" on="1">
+          <Eq Lowshelfactive="1" Peak4active="1" HP12="1" LowShelfres="1.4" Peak2bw="0.30000001" LP="1" Peak3active="1" HP48="0" Peak4gain="10.98" HighShelfgain="0.36000001" Outputgain="0" HPres="0.70700002" Peak4bw="0.30000001" HPactive="1" AnalyseOut="1" Peak3bw="0.30000001" Lowshelfgain="4.8600001" HP24="0" LP24="1" AnalyseIn="1" Highshelfactive="1" LPactive="1" HP="0" HighShelfres="1.4" Peak1active="1" LPres="0.70700002" Peak2active="1" LP12="0" Peak2gain="8.46" Peak3gain="6.1199999" Peak1bw="0.30000001" LP48="0">
+            <Inputgain id="3334605" value="0" scale_type="log"/>
+            <Peak1gain id="4281466" value="0.54000002" scale_type="log"/>
+            <HPfreq id="452918" value="40.243401" scale_type="log"/>
+            <LowShelffreq id="1993133" value="51.257401" scale_type="log"/>
+            <Peak1freq id="2986821" value="258.53201" scale_type="log"/>
+            <Peak2freq id="4361380" value="119.658" scale_type="log"/>
+            <Peak3freq id="3377776" value="3475.6001" scale_type="log"/>
+            <Peak4freq id="7183815" value="5273.0298" scale_type="log"/>
+            <Highshelffreq id="2059383" value="403.504" scale_type="log"/>
+            <LPfreq id="5390822" value="14971.7" scale_type="log"/>
+          </Eq>
+          <key/>
+        </effect>
+      </fxchain>
+    </instrumenttrack>
+  </instrumenttracksettings>
+</lmms-project>

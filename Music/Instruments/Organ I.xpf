@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<!DOCTYPE lmms-project>
+<lmms-project version="1.0" type="instrumenttracksettings" creator="LMMS" creatorversion="1.2.2">
+  <head/>
+  <instrumenttracksettings solo="0" name="Lead" type="0" muted="0">
+    <instrumenttrack fxch="1" pan="0" vol="28" usemasterpitch="1" basenote="57" pitch="0" pitchrange="1">
+      <instrument name="organic">
+        <organic pan6="0" newdetune7="-4" vol3="15" wavetype7="2" vol7="82" wavetype6="3" newharmonic2="2" newdetune5="2" newharmonic3="3" newharmonic4="4" newharmonic7="7" newharmonic6="6" wavetype5="3" newdetune1="-3" newdetune3="0" pan5="0" newharmonic0="0" vol="100" pan4="0" foldback="0" pan3="0" newdetune0="1" newharmonic1="1" newdetune6="4" vol0="81" newdetune4="-3" vol2="82" newharmonic5="5" vol6="40" wavetype2="3" wavetype4="3" pan0="0" pan2="0" pan7="0" wavetype0="3" num_osc="8" wavetype3="3" vol1="87" pan1="0" newdetune2="-4" wavetype1="4" vol5="97" vol4="23"/>
+      </instrument>
+      <eldata ftype="4" fres="2.98" fcut="2498" fwet="1">
+        <elvol latt="0.215" lamt="0.72500002" lpdel="0" lspd_denominator="4" att="0" lshp="2" dec="0.5" rel="0.1" userwavefile="" sustain="0.5" x100="0" pdel="0" amt="1" hold="0" ctlenvamt="0" lspd_numerator="4" lspd_syncmode="4" lspd="0.020689655"/>
+        <elcut latt="0.243" lamt="0" lpdel="0" lspd_denominator="4" att="0" lshp="2" dec="0.5" rel="0.1" userwavefile="" sustain="0.5" x100="0" pdel="0" amt="0" hold="0.5" ctlenvamt="0" lspd_numerator="4" lspd_syncmode="4" lspd="0.020689655"/>
+        <elres latt="0" lamt="1" lpdel="0" lspd_denominator="4" att="0" lshp="0" dec="0.5" rel="0.1" userwavefile="" sustain="0.5" x100="0" pdel="0" amt="1" hold="0.5" ctlenvamt="0" lspd_numerator="4" lspd_syncmode="0" lspd="0.1"/>
+      </eldata>
+      <chordcreator chord="3" chord-enabled="1" chordrange="1"/>
+      <arpeggiator arpskip="0" arptime_numerator="4" arprange="1" arptime_denominator="4" arpdir="0" arptime="100" arpcycle="0" arp-enabled="0" arpgate="100" arp="0" arpmiss="0" arptime_syncmode="0" arpmode="0"/>
+      <midiport outputprogram="1" fixedinputvelocity="-1" writable="0" inputcontroller="0" fixedoutputnote="-1" outputcontroller="0" fixedoutputvelocity="-1" inputchannel="0" outputchannel="1" basevelocity="127" readable="0"/>
+      <fxchain enabled="1" numofeffects="2">
+        <effect name="ladspaeffect" wet="1" autoquit_numerator="4" gate="0" autoquit_denominator="4" autoquit="8000" autoquit_syncmode="0" on="1">
+          <ladspacontrols ports="4">
+            <port02 data="0.80017"/>
+            <port03 data="0.37450001"/>
+            <port04 data="0.24987499"/>
+            <port05 data="0.2825"/>
+          </ladspacontrols>
+          <key>
+            <attribute name="file" value="caps"/>
+            <attribute name="plugin" value="Plate2x2"/>
+          </key>
+        </effect>
+        <effect name="ladspaeffect" wet="1" autoquit_numerator="4" gate="0" autoquit_denominator="4" autoquit="1" autoquit_syncmode="0" on="1">
+          <ladspacontrols link="1" ports="20">
+            <port01 data="0" link="1"/>
+            <port02 data="0" link="1"/>
+            <port03 data="0" link="1"/>
+            <port04 data="-1.26" link="1"/>
+            <port05 data="5.8500004" link="1"/>
+            <port06 data="0" link="1"/>
+            <port07 data="7.5600004" link="1"/>
+            <port08 data="0" link="1"/>
+            <port09 data="8.46" link="1"/>
+            <port010 data="0" link="1"/>
+            <port11 data="0"/>
+            <port12 data="0"/>
+            <port13 data="0"/>
+            <port14 data="-1.26"/>
+            <port15 data="5.8500004"/>
+            <port16 data="0"/>
+            <port17 data="7.5600004"/>
+            <port18 data="0"/>
+            <port19 data="8.46"/>
+            <port110 data="0"/>
+          </ladspacontrols>
+          <key>
+            <attribute name="file" value="caps"/>
+            <attribute name="plugin" value="Eq"/>
+          </key>
+        </effect>
+      </fxchain>
+    </instrumenttrack>
+  </instrumenttracksettings>
+</lmms-project>
