@@ -1,17 +1,17 @@
 <?xml version="1.0"?>
 <!DOCTYPE lmms-project>
-<lmms-project type="song" version="1.0" creator="LMMS" creatorversion="1.2.2">
-  <head mastervol="100" bpm="100" masterpitch="0">
-    <timesig_numerator value="4" id="1830140" scale_type="linear"/>
-    <timesig_denominator value="4" id="2558538" scale_type="linear"/>
+<lmms-project creatorversion="1.2.2" version="1.0" creator="LMMS" type="song">
+  <head masterpitch="0" bpm="100" mastervol="100">
+    <timesig_numerator id="1830140" value="4" scale_type="linear"/>
+    <timesig_denominator id="2558538" value="4" scale_type="linear"/>
   </head>
   <song>
-    <trackcontainer visible="0" type="song" minimized="0" height="624" maximized="0" x="375" width="1175" y="226">
-      <track muted="0" type="5" name="Automation track" solo="0">
+    <trackcontainer y="144" height="624" minimized="0" x="334" width="1175" maximized="0" visible="1" type="song">
+      <track solo="0" muted="0" type="5" name="Automation track">
         <automationtrack/>
-        <automationpattern pos="0" mute="0" prog="1" name="ReverbSC>>Size" tens="1" len="576">
-          <time pos="0" value="0.63999999"/>
-          <time pos="576" value="0.94"/>
+        <automationpattern prog="1" mute="0" tens="1" pos="0" len="768" name="ReverbSC>>Size">
+          <time value="0.63999999" pos="0"/>
+          <time value="0.94" pos="576"/>
           <object id="7562608"/>
           <object id="7562608"/>
           <object id="7562608"/>
@@ -22,33 +22,33 @@
           <object id="7562608"/>
         </automationpattern>
       </track>
-      <track muted="0" type="0" name="space_strings02.ogg" solo="0">
-        <instrumenttrack usemasterpitch="1" pitch="0" pitchrange="1" vol="70" pan="0" basenote="57" fxch="0">
+      <track solo="0" muted="0" type="0" name="space_strings02.ogg">
+        <instrumenttrack pitchrange="1" pitch="0" usemasterpitch="1" fxch="0" pan="0" basenote="57" vol="70">
           <instrument name="audiofileprocessor">
-            <audiofileprocessor interp="2" sframe="0" eframe="1" src="stringsnpads/space_strings02.ogg" reversed="0" stutter="0" looped="0" amp="100" lframe="0"/>
+            <audiofileprocessor lframe="0" stutter="0" src="stringsnpads/space_strings02.ogg" amp="100" looped="0" sframe="0" eframe="1" interp="2" reversed="0"/>
           </instrument>
-          <eldata fcut="14000" fres="0.5" ftype="0" fwet="0">
-            <elvol lspd_syncmode="0" rel="1.2640001" lspd="0.1" amt="0" pdel="0" lspd_denominator="4" latt="0" userwavefile="" lspd_numerator="4" lpdel="0" hold="0.5" lamt="0" sustain="0.62" att="0" ctlenvamt="0" x100="0" lshp="0" dec="2"/>
-            <elcut lspd_syncmode="0" rel="0.1" lspd="0.1" amt="0" pdel="0" lspd_denominator="4" latt="0" userwavefile="" lspd_numerator="4" lpdel="0" hold="0.5" lamt="0" sustain="0.5" att="0" ctlenvamt="0" x100="0" lshp="0" dec="0.5"/>
-            <elres lspd_syncmode="0" rel="0.1" lspd="0.1" amt="0" pdel="0" lspd_denominator="4" latt="0" userwavefile="" lspd_numerator="4" lpdel="0" hold="0.5" lamt="0" sustain="0.5" att="0" ctlenvamt="0" x100="0" lshp="0" dec="0.5"/>
+          <eldata fcut="14000" ftype="0" fwet="0" fres="0.5">
+            <elvol lspd_syncmode="0" dec="2" lpdel="0" latt="0" rel="0.84800005" sustain="1" att="0" lspd="0.1" lamt="0" lshp="0" hold="0" userwavefile="" x100="0" lspd_denominator="4" amt="1" ctlenvamt="0" pdel="0" lspd_numerator="4"/>
+            <elcut lspd_syncmode="0" dec="0.5" lpdel="0" latt="0" rel="0.1" sustain="0.5" att="0" lspd="0.1" lamt="0" lshp="0" hold="0.5" userwavefile="" x100="0" lspd_denominator="4" amt="0" ctlenvamt="0" pdel="0" lspd_numerator="4"/>
+            <elres lspd_syncmode="0" dec="0.5" lpdel="0" latt="0" rel="0.1" sustain="0.5" att="0" lspd="0.1" lamt="0" lshp="0" hold="0.5" userwavefile="" x100="0" lspd_denominator="4" amt="0" ctlenvamt="0" pdel="0" lspd_numerator="4"/>
           </eldata>
-          <chordcreator chord="0" chord-enabled="0" chordrange="1"/>
-          <arpeggiator arpdir="0" arptime_denominator="4" arpmode="0" arptime_numerator="4" arpgate="100" arp="0" arpcycle="0" arpskip="0" arptime_syncmode="0" arp-enabled="0" arprange="1" arpmiss="0" arptime="200"/>
-          <midiport writable="0" fixedinputvelocity="-1" basevelocity="63" outputcontroller="0" fixedoutputnote="-1" outputchannel="1" fixedoutputvelocity="-1" readable="0" inputchannel="0" inputcontroller="0" outputprogram="1"/>
-          <fxchain numofeffects="2" enabled="1">
-            <effect on="0" wet="1" autoquit_syncmode="0" autoquit_denominator="4" name="ladspaeffect" autoquit="1" autoquit_numerator="4" gate="0">
-              <ladspacontrols ports="12" link="1">
-                <port00 data_syncmode="0" data_denominator="4" data_numerator="4" data="10" link="1"/>
-                <port01 data_syncmode="0" data_denominator="4" data_numerator="4" link="1">
-                  <data value="5" id="6279413" scale_type="log"/>
+          <chordcreator chord="0" chordrange="1" chord-enabled="1"/>
+          <arpeggiator arptime_denominator="4" arprange="1" arptime_syncmode="0" arp="0" arpmode="0" arpmiss="0" arpgate="100" arp-enabled="0" arptime="200" arpdir="0" arpcycle="0" arpskip="0" arptime_numerator="4"/>
+          <midiport readable="0" outputcontroller="0" outputchannel="1" inputcontroller="0" writable="0" inputchannel="0" fixedoutputnote="-1" basevelocity="63" outputprogram="1" fixedinputvelocity="-1" fixedoutputvelocity="-1"/>
+          <fxchain numofeffects="3" enabled="1">
+            <effect autoquit_numerator="4" wet="1" autoquit="1" autoquit_syncmode="0" autoquit_denominator="4" on="0" name="ladspaeffect" gate="0">
+              <ladspacontrols link="1" ports="12">
+                <port00 data="10" data_syncmode="0" data_denominator="4" link="1" data_numerator="4"/>
+                <port01 data_syncmode="0" data_denominator="4" link="1" data_numerator="4">
+                  <data id="6279413" value="5" scale_type="log"/>
                 </port01>
                 <port02 data="1" link="1"/>
                 <port03 data="1" link="1"/>
                 <port04 data="1" link="1"/>
                 <port05 data="0.25" link="1"/>
-                <port10 data_syncmode="0" data_denominator="4" data_numerator="4" data="10"/>
+                <port10 data="10" data_syncmode="0" data_denominator="4" data_numerator="4"/>
                 <port11 data_syncmode="0" data_denominator="4" data_numerator="4">
-                  <data value="5" id="3974804" scale_type="log"/>
+                  <data id="3974804" value="5" scale_type="log"/>
                 </port11>
                 <port12 data="1"/>
                 <port13 data="1"/>
@@ -60,8 +60,8 @@
                 <attribute value="ChorusI" name="plugin"/>
               </key>
             </effect>
-            <effect on="1" wet="1" autoquit_syncmode="0" autoquit_denominator="4" name="ladspaeffect" autoquit="1" autoquit_numerator="4" gate="0">
-              <ladspacontrols ports="20" link="1">
+            <effect autoquit_numerator="4" wet="1" autoquit="1" autoquit_syncmode="0" autoquit_denominator="4" on="1" name="ladspaeffect" gate="0">
+              <ladspacontrols link="1" ports="20">
                 <port01 data="0" link="1"/>
                 <port02 data="0" link="1"/>
                 <port03 data="5" link="1"/>
@@ -88,22 +88,124 @@
                 <attribute value="Eq" name="plugin"/>
               </key>
             </effect>
+            <effect autoquit_numerator="4" wet="1" autoquit="1" autoquit_syncmode="0" autoquit_denominator="4" on="1" name="eq" gate="0">
+              <Eq LP24="0" Peak2active="0" HP12="1" Peak4gain="0" AnalyseIn="1" HighShelfgain="5.9999995" HP24="0" Peak3bw="0.69200003" Peak4active="0" LPactive="0" HPactive="0" LP48="0" HP48="0" AnalyseOut="1" HighShelfres="1.4" Peak2gain="-0.54000002" Highshelfactive="1" LP12="1" Lowshelfactive="1" Peak2bw="0.30000001" LowShelfres="1.4" Outputgain="0" Peak3active="1" LPres="0.70700002" LP="0" Peak4bw="0.30000001" Peak1active="0" Peak3gain="2.7" HP="0" HPres="0.70700002" Lowshelfgain="1.98" Peak1bw="0.30000001">
+                <Inputgain id="6936744" value="0" scale_type="log"/>
+                <Peak1gain id="5094231" value="0" scale_type="log"/>
+                <HPfreq id="3567634" value="31.000004" scale_type="log"/>
+                <LowShelffreq id="115272" value="197.88982" scale_type="log"/>
+                <Peak1freq id="4126415" value="119.99998" scale_type="log"/>
+                <Peak2freq id="88441" value="627.97198" scale_type="log"/>
+                <Peak3freq id="4315099" value="4308.8677" scale_type="log"/>
+                <Peak4freq id="4613268" value="4000.0029" scale_type="log"/>
+                <Highshelffreq id="5114897" value="7571.4824" scale_type="log"/>
+                <LPfreq id="6726300" value="17999.996" scale_type="log"/>
+              </Eq>
+              <key/>
+            </effect>
           </fxchain>
         </instrumenttrack>
-        <pattern pos="0" muted="0" type="1" name="space_strings02.ogg" steps="16">
-          <note pos="0" key="60" vol="100" pan="0" len="576"/>
-          <note pos="96" key="59" vol="100" pan="0" len="480"/>
-          <note pos="192" key="52" vol="100" pan="0" len="384"/>
+        <pattern steps="16" pos="0" muted="0" type="1" name="space_strings02.ogg">
+          <note key="60" pan="0" pos="0" len="576" vol="100"/>
+          <note key="59" pan="0" pos="96" len="480" vol="100"/>
+          <note key="52" pan="0" pos="192" len="384" vol="100"/>
         </pattern>
       </track>
-      <track muted="0" type="0" name="Breathy Pad" solo="0">
-        <instrumenttrack usemasterpitch="1" pitch="0" pitchrange="1" vol="68.800003" pan="0" basenote="57" fxch="0">
+      <track solo="0" muted="0" type="0" name="bass">
+        <instrumenttrack pitchrange="1" pitch="0" usemasterpitch="1" fxch="0" pan="0" basenote="81" vol="25.200001">
+          <instrument name="audiofileprocessor">
+            <audiofileprocessor lframe="0" stutter="0" src="stringsnpads/space_strings02.ogg" amp="100" looped="0" sframe="0" eframe="1" interp="2" reversed="0"/>
+          </instrument>
+          <eldata fcut="14000" ftype="0" fwet="0" fres="0.5">
+            <elvol lspd_syncmode="0" dec="2" lpdel="0" latt="0" rel="0.84800005" sustain="1" att="0" lspd="0.1" lamt="0" lshp="0" hold="0" userwavefile="" x100="0" lspd_denominator="4" amt="1" ctlenvamt="0" pdel="0" lspd_numerator="4"/>
+            <elcut lspd_syncmode="0" dec="0.5" lpdel="0" latt="0" rel="0.1" sustain="0.5" att="0" lspd="0.1" lamt="0" lshp="0" hold="0.5" userwavefile="" x100="0" lspd_denominator="4" amt="0" ctlenvamt="0" pdel="0" lspd_numerator="4"/>
+            <elres lspd_syncmode="0" dec="0.5" lpdel="0" latt="0" rel="0.1" sustain="0.5" att="0" lspd="0.1" lamt="0" lshp="0" hold="0.5" userwavefile="" x100="0" lspd_denominator="4" amt="0" ctlenvamt="0" pdel="0" lspd_numerator="4"/>
+          </eldata>
+          <chordcreator chord="0" chordrange="1" chord-enabled="0"/>
+          <arpeggiator arptime_denominator="4" arprange="1" arptime_syncmode="0" arp="0" arpmode="0" arpmiss="0" arpgate="100" arp-enabled="0" arptime="200" arpdir="0" arpcycle="0" arpskip="0" arptime_numerator="4"/>
+          <midiport readable="0" outputcontroller="0" outputchannel="1" inputcontroller="0" writable="0" inputchannel="0" fixedoutputnote="-1" basevelocity="63" outputprogram="1" fixedinputvelocity="-1" fixedoutputvelocity="-1"/>
+          <fxchain numofeffects="3" enabled="1">
+            <effect autoquit_numerator="4" wet="1" autoquit="1" autoquit_syncmode="0" autoquit_denominator="4" on="0" name="ladspaeffect" gate="0">
+              <ladspacontrols link="1" ports="12">
+                <port00 data="10" data_syncmode="0" data_denominator="4" link="1" data_numerator="4"/>
+                <port01 data_syncmode="0" data_denominator="4" link="1" data_numerator="4">
+                  <data id="2879118" value="5" scale_type="log"/>
+                </port01>
+                <port02 data="1" link="1"/>
+                <port03 data="1" link="1"/>
+                <port04 data="1" link="1"/>
+                <port05 data="0.25" link="1"/>
+                <port10 data="10" data_syncmode="0" data_denominator="4" data_numerator="4"/>
+                <port11 data_syncmode="0" data_denominator="4" data_numerator="4">
+                  <data id="7484968" value="5" scale_type="log"/>
+                </port11>
+                <port12 data="1"/>
+                <port13 data="1"/>
+                <port14 data="1"/>
+                <port15 data="0.25"/>
+              </ladspacontrols>
+              <key>
+                <attribute value="caps" name="file"/>
+                <attribute value="ChorusI" name="plugin"/>
+              </key>
+            </effect>
+            <effect autoquit_numerator="4" wet="1" autoquit="1" autoquit_syncmode="0" autoquit_denominator="4" on="1" name="ladspaeffect" gate="0">
+              <ladspacontrols link="1" ports="20">
+                <port01 data="0" link="1"/>
+                <port02 data="0" link="1"/>
+                <port03 data="5" link="1"/>
+                <port04 data="0" link="1"/>
+                <port05 data="8" link="1"/>
+                <port06 data="0" link="1"/>
+                <port07 data="0" link="1"/>
+                <port08 data="-3.6900001" link="1"/>
+                <port09 data="0" link="1"/>
+                <port010 data="0" link="1"/>
+                <port11 data="0"/>
+                <port12 data="0"/>
+                <port13 data="5"/>
+                <port14 data="0"/>
+                <port15 data="8"/>
+                <port16 data="0"/>
+                <port17 data="0"/>
+                <port18 data="-3.6900001"/>
+                <port19 data="0"/>
+                <port110 data="0"/>
+              </ladspacontrols>
+              <key>
+                <attribute value="caps" name="file"/>
+                <attribute value="Eq" name="plugin"/>
+              </key>
+            </effect>
+            <effect autoquit_numerator="4" wet="1" autoquit="1" autoquit_syncmode="0" autoquit_denominator="4" on="1" name="eq" gate="0">
+              <Eq LP24="0" Peak2active="0" HP12="1" Peak4gain="0" AnalyseIn="1" HighShelfgain="5.9999995" HP24="0" Peak3bw="0.69200003" Peak4active="0" LPactive="0" HPactive="0" LP48="0" HP48="0" AnalyseOut="1" HighShelfres="1.4" Peak2gain="-0.54000002" Highshelfactive="1" LP12="1" Lowshelfactive="1" Peak2bw="0.30000001" LowShelfres="1.4" Outputgain="0" Peak3active="1" LPres="0.70700002" LP="0" Peak4bw="0.30000001" Peak1active="0" Peak3gain="2.7" HP="0" HPres="0.70700002" Lowshelfgain="5.2200003" Peak1bw="0.30000001">
+                <Inputgain id="6936744" value="0" scale_type="log"/>
+                <Peak1gain id="5094231" value="0" scale_type="log"/>
+                <HPfreq id="3567634" value="31.000004" scale_type="log"/>
+                <LowShelffreq id="115272" value="134.82082" scale_type="log"/>
+                <Peak1freq id="4126415" value="119.99998" scale_type="log"/>
+                <Peak2freq id="88441" value="627.97198" scale_type="log"/>
+                <Peak3freq id="4315099" value="4308.8677" scale_type="log"/>
+                <Peak4freq id="4613268" value="4000.0029" scale_type="log"/>
+                <Highshelffreq id="5114897" value="7571.4824" scale_type="log"/>
+                <LPfreq id="6726300" value="17999.996" scale_type="log"/>
+              </Eq>
+              <key/>
+            </effect>
+          </fxchain>
+        </instrumenttrack>
+        <pattern steps="16" pos="0" muted="0" type="1" name="bass">
+          <note key="60" pan="0" pos="0" len="576" vol="100"/>
+          <note key="59" pan="0" pos="96" len="480" vol="100"/>
+          <note key="52" pan="0" pos="192" len="384" vol="100"/>
+        </pattern>
+      </track>
+      <track y="1" height="470" minimized="0" x="1161" width="262" solo="0" tab="3" maximized="0" visible="1" muted="1" type="0" name="Bass 1">
+        <instrumenttrack pitchrange="1" pitch="0" usemasterpitch="1" fxch="0" pan="0" basenote="69" vol="74.400002">
           <instrument name="zynaddsubfx">
-            <zynaddsubfx fmgain="127" portamento="0" filterfreq="64" filterq="64" resbandwidth="64" forwardmidicc="1" rescenterfreq="64" modifiedcontrollers="" bandwidth="64">
-              <ZynAddSubFX-data ZynAddSubFX-author="Nasca Octavian Paul" version-minor="4" version-major="2" version-revision="1">
-                <INFORMATION>
-                  <par_bool value="yes" name="PADsynth_used"/>
-                </INFORMATION>
+            <zynaddsubfx rescenterfreq="64" forwardmidicc="1" filterq="64" bandwidth="64" fmgain="127" resbandwidth="64" portamento="0" modifiedcontrollers="" filterfreq="64">
+              <ZynAddSubFX-data version-minor="4" ZynAddSubFX-author="Nasca Octavian Paul" version-revision="1" version-major="2">
+                <INFORMATION/>
                 <BASE_PARAMETERS>
                   <par value="16" name="max_midi_parts"/>
                   <par value="16" name="max_kit_items_per_instrument"/>
@@ -142,139 +244,50 @@
                     <par value="15" name="key_limit"/>
                     <INSTRUMENT>
                       <INFO>
-                        <string name="name">Breathy Pad</string>
-                        <string name="author">Will Godfrey
-GPL V 2 or later</string>
-                        <string name="comments">Derived from Atte Andre Jensen's Breathing Pad</string>
-                        <par value="12" name="type"/>
+                        <string name="name">Bass 1</string>
+                        <string name="author"/>
+                        <string name="comments"/>
+                        <par value="0" name="type"/>
                       </INFO>
                       <INSTRUMENT_KIT>
                         <par value="0" name="kit_mode"/>
                         <par_bool value="no" name="drum_mode"/>
                         <INSTRUMENT_KIT_ITEM id="0">
                           <par_bool value="yes" name="enabled"/>
-                          <string name="name"/>
+                          <string name="name">Bass 1</string>
                           <par_bool value="no" name="muted"/>
                           <par value="0" name="min_key"/>
                           <par value="127" name="max_key"/>
                           <par value="0" name="send_to_instrument_effect"/>
-                          <par_bool value="no" name="add_enabled"/>
-                          <par_bool value="no" name="sub_enabled"/>
-                          <par_bool value="yes" name="pad_enabled"/>
-                          <PAD_SYNTH_PARAMETERS>
+                          <par_bool value="yes" name="add_enabled"/>
+                          <ADD_SYNTH_PARAMETERS>
                             <par_bool value="yes" name="stereo"/>
-                            <par value="0" name="mode"/>
-                            <par value="620" name="bandwidth"/>
-                            <par value="0" name="bandwidth_scale"/>
-                            <HARMONIC_PROFILE>
-                              <par value="1" name="base_type"/>
-                              <par value="57" name="base_par1"/>
-                              <par value="51" name="frequency_multiplier"/>
-                              <par value="0" name="modulator_par1"/>
-                              <par value="127" name="modulator_frequency"/>
-                              <par value="127" name="width"/>
-                              <par value="2" name="amplitude_multiplier_type"/>
-                              <par value="3" name="amplitude_multiplier_mode"/>
-                              <par value="80" name="amplitude_multiplier_par1"/>
-                              <par value="4" name="amplitude_multiplier_par2"/>
-                              <par_bool value="yes" name="autoscale"/>
-                              <par value="1" name="one_half"/>
-                            </HARMONIC_PROFILE>
-                            <OSCIL>
-                              <par value="0" name="harmonic_mag_type"/>
-                              <par value="0" name="base_function"/>
-                              <par value="48" name="base_function_par"/>
-                              <par value="0" name="base_function_modulation"/>
-                              <par value="64" name="base_function_modulation_par1"/>
-                              <par value="64" name="base_function_modulation_par2"/>
-                              <par value="32" name="base_function_modulation_par3"/>
-                              <par value="1" name="modulation"/>
-                              <par value="90" name="modulation_par1"/>
-                              <par value="64" name="modulation_par2"/>
-                              <par value="32" name="modulation_par3"/>
-                              <par value="64" name="wave_shaping"/>
-                              <par value="0" name="wave_shaping_function"/>
-                              <par value="0" name="filter_type"/>
-                              <par value="64" name="filter_par1"/>
-                              <par value="64" name="filter_par2"/>
-                              <par value="0" name="filter_before_wave_shaping"/>
-                              <par value="1" name="spectrum_adjust_type"/>
-                              <par value="75" name="spectrum_adjust_par"/>
-                              <par value="64" name="rand"/>
-                              <par value="0" name="amp_rand_type"/>
-                              <par value="64" name="amp_rand_power"/>
-                              <par value="0" name="harmonic_shift"/>
-                              <par_bool value="no" name="harmonic_shift_first"/>
-                              <par value="1" name="adaptive_harmonics"/>
-                              <par value="98" name="adaptive_harmonics_base_frequency"/>
-                              <par value="86" name="adaptive_harmonics_power"/>
-                              <HARMONICS>
-                                <HARMONIC id="1">
-                                  <par value="127" name="mag"/>
-                                  <par value="24" name="phase"/>
-                                </HARMONIC>
-                                <HARMONIC id="2">
-                                  <par value="105" name="mag"/>
-                                  <par value="64" name="phase"/>
-                                </HARMONIC>
-                                <HARMONIC id="3">
-                                  <par value="88" name="mag"/>
-                                  <par value="81" name="phase"/>
-                                </HARMONIC>
-                                <HARMONIC id="12">
-                                  <par value="74" name="mag"/>
-                                  <par value="64" name="phase"/>
-                                </HARMONIC>
-                                <HARMONIC id="17">
-                                  <par value="79" name="mag"/>
-                                  <par value="65" name="phase"/>
-                                </HARMONIC>
-                                <HARMONIC id="21">
-                                  <par value="78" name="mag"/>
-                                  <par value="64" name="phase"/>
-                                </HARMONIC>
-                              </HARMONICS>
-                            </OSCIL>
-                            <RESONANCE>
-                              <par_bool value="no" name="enabled"/>
-                            </RESONANCE>
-                            <HARMONIC_POSITION>
-                              <par value="0" name="type"/>
-                              <par value="183" name="parameter1"/>
-                              <par value="145" name="parameter2"/>
-                              <par value="189" name="parameter3"/>
-                            </HARMONIC_POSITION>
-                            <SAMPLE_QUALITY>
-                              <par value="3" name="samplesize"/>
-                              <par value="6" name="basenote"/>
-                              <par value="3" name="octaves"/>
-                              <par value="2" name="samples_per_octave"/>
-                            </SAMPLE_QUALITY>
                             <AMPLITUDE_PARAMETERS>
-                              <par value="80" name="volume"/>
+                              <par value="109" name="volume"/>
                               <par value="64" name="panning"/>
-                              <par value="70" name="velocity_sensing"/>
+                              <par value="96" name="velocity_sensing"/>
                               <par value="0" name="punch_strength"/>
                               <par value="60" name="punch_time"/>
                               <par value="64" name="punch_stretch"/>
                               <par value="72" name="punch_velocity_sensing"/>
+                              <par value="0" name="harmonic_randomness_grouping"/>
                               <AMPLITUDE_ENVELOPE>
                                 <par_bool value="no" name="free_mode"/>
                                 <par value="4" name="env_points"/>
                                 <par value="2" name="env_sustain"/>
-                                <par value="64" name="env_stretch"/>
+                                <par value="55" name="env_stretch"/>
                                 <par_bool value="yes" name="forced_release"/>
                                 <par_bool value="no" name="linear_envelope"/>
-                                <par value="43" name="A_dt"/>
-                                <par value="40" name="D_dt"/>
-                                <par value="87" name="R_dt"/>
+                                <par value="1" name="A_dt"/>
+                                <par value="54" name="D_dt"/>
+                                <par value="30" name="R_dt"/>
                                 <par value="64" name="A_val"/>
                                 <par value="64" name="D_val"/>
-                                <par value="127" name="S_val"/>
+                                <par value="83" name="S_val"/>
                                 <par value="64" name="R_val"/>
                               </AMPLITUDE_ENVELOPE>
                               <AMPLITUDE_LFO>
-                                <par_real value="0.630000" name="freq"/>
+                                <par_real value="0.629921" name="freq"/>
                                 <par value="0" name="intensity"/>
                                 <par value="64" name="start_phase"/>
                                 <par value="0" name="lfo_type"/>
@@ -286,11 +299,10 @@ GPL V 2 or later</string>
                               </AMPLITUDE_LFO>
                             </AMPLITUDE_PARAMETERS>
                             <FREQUENCY_PARAMETERS>
-                              <par value="0" name="fixed_freq"/>
-                              <par value="0" name="fixed_freq_et"/>
                               <par value="8192" name="detune"/>
                               <par value="0" name="coarse_detune"/>
                               <par value="1" name="detune_type"/>
+                              <par value="64" name="bandwidth"/>
                               <FREQUENCY_ENVELOPE>
                                 <par_bool value="no" name="free_mode"/>
                                 <par value="3" name="env_points"/>
@@ -307,7 +319,7 @@ GPL V 2 or later</string>
                                 <par value="64" name="R_val"/>
                               </FREQUENCY_ENVELOPE>
                               <FREQUENCY_LFO>
-                                <par_real value="0.526000" name="freq"/>
+                                <par_real value="0.551181" name="freq"/>
                                 <par value="0" name="intensity"/>
                                 <par value="64" name="start_phase"/>
                                 <par value="0" name="lfo_type"/>
@@ -319,13 +331,13 @@ GPL V 2 or later</string>
                               </FREQUENCY_LFO>
                             </FREQUENCY_PARAMETERS>
                             <FILTER_PARAMETERS>
-                              <par value="41" name="velocity_sensing_amplitude"/>
+                              <par value="27" name="velocity_sensing_amplitude"/>
                               <par value="64" name="velocity_sensing"/>
                               <FILTER>
                                 <par value="0" name="category"/>
-                                <par value="0" name="type"/>
-                                <par value="127" name="freq"/>
-                                <par value="0" name="q"/>
+                                <par value="2" name="type"/>
+                                <par value="32" name="freq"/>
+                                <par value="35" name="q"/>
                                 <par value="0" name="stages"/>
                                 <par value="64" name="freq_track"/>
                                 <par value="64" name="gain"/>
@@ -337,16 +349,16 @@ GPL V 2 or later</string>
                                 <par value="0" name="env_stretch"/>
                                 <par_bool value="yes" name="forced_release"/>
                                 <par_bool value="no" name="linear_envelope"/>
-                                <par value="88" name="A_dt"/>
-                                <par value="127" name="D_dt"/>
-                                <par value="98" name="R_dt"/>
-                                <par value="95" name="A_val"/>
-                                <par value="105" name="D_val"/>
+                                <par value="61" name="A_dt"/>
+                                <par value="70" name="D_dt"/>
+                                <par value="60" name="R_dt"/>
+                                <par value="91" name="A_val"/>
+                                <par value="64" name="D_val"/>
                                 <par value="64" name="S_val"/>
-                                <par value="43" name="R_val"/>
+                                <par value="64" name="R_val"/>
                               </FILTER_ENVELOPE>
                               <FILTER_LFO>
-                                <par_real value="0.630000" name="freq"/>
+                                <par_real value="0.629921" name="freq"/>
                                 <par value="0" name="intensity"/>
                                 <par value="64" name="start_phase"/>
                                 <par value="0" name="lfo_type"/>
@@ -357,7 +369,174 @@ GPL V 2 or later</string>
                                 <par_bool value="no" name="continous"/>
                               </FILTER_LFO>
                             </FILTER_PARAMETERS>
-                          </PAD_SYNTH_PARAMETERS>
+                            <RESONANCE>
+                              <par_bool value="no" name="enabled"/>
+                            </RESONANCE>
+                            <VOICE id="0">
+                              <par_bool value="yes" name="enabled"/>
+                              <par value="0" name="type"/>
+                              <par value="1" name="unison_size"/>
+                              <par value="60" name="unison_frequency_spread"/>
+                              <par value="64" name="unison_stereo_spread"/>
+                              <par value="64" name="unison_vibratto"/>
+                              <par value="64" name="unison_vibratto_speed"/>
+                              <par value="0" name="unison_invert_phase"/>
+                              <par value="127" name="unison_phase_randomness"/>
+                              <par value="0" name="delay"/>
+                              <par_bool value="yes" name="resonance"/>
+                              <par value="-1" name="ext_oscil"/>
+                              <par value="-1" name="ext_fm_oscil"/>
+                              <par value="64" name="oscil_phase"/>
+                              <par value="64" name="oscil_fm_phase"/>
+                              <par_bool value="no" name="filter_enabled"/>
+                              <par_bool value="no" name="filter_bypass"/>
+                              <par value="0" name="fm_enabled"/>
+                              <OSCIL>
+                                <par value="0" name="harmonic_mag_type"/>
+                                <par value="3" name="base_function"/>
+                                <par value="9" name="base_function_par"/>
+                                <par value="0" name="base_function_modulation"/>
+                                <par value="64" name="base_function_modulation_par1"/>
+                                <par value="64" name="base_function_modulation_par2"/>
+                                <par value="32" name="base_function_modulation_par3"/>
+                                <par value="0" name="modulation"/>
+                                <par value="64" name="modulation_par1"/>
+                                <par value="64" name="modulation_par2"/>
+                                <par value="32" name="modulation_par3"/>
+                                <par value="64" name="wave_shaping"/>
+                                <par value="0" name="wave_shaping_function"/>
+                                <par value="0" name="filter_type"/>
+                                <par value="64" name="filter_par1"/>
+                                <par value="64" name="filter_par2"/>
+                                <par value="0" name="filter_before_wave_shaping"/>
+                                <par value="0" name="spectrum_adjust_type"/>
+                                <par value="64" name="spectrum_adjust_par"/>
+                                <par value="127" name="rand"/>
+                                <par value="0" name="amp_rand_type"/>
+                                <par value="64" name="amp_rand_power"/>
+                                <par value="0" name="harmonic_shift"/>
+                                <par_bool value="no" name="harmonic_shift_first"/>
+                                <par value="0" name="adaptive_harmonics"/>
+                                <par value="128" name="adaptive_harmonics_base_frequency"/>
+                                <par value="100" name="adaptive_harmonics_power"/>
+                                <HARMONICS>
+                                  <HARMONIC id="1">
+                                    <par value="127" name="mag"/>
+                                    <par value="64" name="phase"/>
+                                  </HARMONIC>
+                                </HARMONICS>
+                              </OSCIL>
+                              <AMPLITUDE_PARAMETERS>
+                                <par value="87" name="panning"/>
+                                <par value="100" name="volume"/>
+                                <par_bool value="no" name="volume_minus"/>
+                                <par value="127" name="velocity_sensing"/>
+                                <par_bool value="no" name="amp_envelope_enabled"/>
+                                <par_bool value="no" name="amp_lfo_enabled"/>
+                              </AMPLITUDE_PARAMETERS>
+                              <FREQUENCY_PARAMETERS>
+                                <par_bool value="no" name="fixed_freq"/>
+                                <par value="0" name="fixed_freq_et"/>
+                                <par value="9557" name="detune"/>
+                                <par value="0" name="coarse_detune"/>
+                                <par value="0" name="detune_type"/>
+                                <par_bool value="no" name="freq_envelope_enabled"/>
+                                <par_bool value="no" name="freq_lfo_enabled"/>
+                              </FREQUENCY_PARAMETERS>
+                            </VOICE>
+                            <VOICE id="1">
+                              <par_bool value="yes" name="enabled"/>
+                              <par value="0" name="type"/>
+                              <par value="1" name="unison_size"/>
+                              <par value="60" name="unison_frequency_spread"/>
+                              <par value="64" name="unison_stereo_spread"/>
+                              <par value="64" name="unison_vibratto"/>
+                              <par value="64" name="unison_vibratto_speed"/>
+                              <par value="0" name="unison_invert_phase"/>
+                              <par value="127" name="unison_phase_randomness"/>
+                              <par value="0" name="delay"/>
+                              <par_bool value="yes" name="resonance"/>
+                              <par value="0" name="ext_oscil"/>
+                              <par value="-1" name="ext_fm_oscil"/>
+                              <par value="64" name="oscil_phase"/>
+                              <par value="64" name="oscil_fm_phase"/>
+                              <par_bool value="no" name="filter_enabled"/>
+                              <par_bool value="no" name="filter_bypass"/>
+                              <par value="0" name="fm_enabled"/>
+                              <OSCIL>
+                                <par value="0" name="harmonic_mag_type"/>
+                                <par value="0" name="base_function"/>
+                                <par value="64" name="base_function_par"/>
+                                <par value="0" name="base_function_modulation"/>
+                                <par value="64" name="base_function_modulation_par1"/>
+                                <par value="64" name="base_function_modulation_par2"/>
+                                <par value="32" name="base_function_modulation_par3"/>
+                                <par value="0" name="modulation"/>
+                                <par value="64" name="modulation_par1"/>
+                                <par value="64" name="modulation_par2"/>
+                                <par value="32" name="modulation_par3"/>
+                                <par value="64" name="wave_shaping"/>
+                                <par value="0" name="wave_shaping_function"/>
+                                <par value="0" name="filter_type"/>
+                                <par value="64" name="filter_par1"/>
+                                <par value="64" name="filter_par2"/>
+                                <par value="0" name="filter_before_wave_shaping"/>
+                                <par value="0" name="spectrum_adjust_type"/>
+                                <par value="64" name="spectrum_adjust_par"/>
+                                <par value="64" name="rand"/>
+                                <par value="0" name="amp_rand_type"/>
+                                <par value="64" name="amp_rand_power"/>
+                                <par value="0" name="harmonic_shift"/>
+                                <par_bool value="no" name="harmonic_shift_first"/>
+                                <par value="0" name="adaptive_harmonics"/>
+                                <par value="128" name="adaptive_harmonics_base_frequency"/>
+                                <par value="100" name="adaptive_harmonics_power"/>
+                                <HARMONICS>
+                                  <HARMONIC id="1">
+                                    <par value="127" name="mag"/>
+                                    <par value="64" name="phase"/>
+                                  </HARMONIC>
+                                </HARMONICS>
+                              </OSCIL>
+                              <AMPLITUDE_PARAMETERS>
+                                <par value="39" name="panning"/>
+                                <par value="100" name="volume"/>
+                                <par_bool value="no" name="volume_minus"/>
+                                <par value="127" name="velocity_sensing"/>
+                                <par_bool value="no" name="amp_envelope_enabled"/>
+                                <par_bool value="no" name="amp_lfo_enabled"/>
+                              </AMPLITUDE_PARAMETERS>
+                              <FREQUENCY_PARAMETERS>
+                                <par_bool value="no" name="fixed_freq"/>
+                                <par value="0" name="fixed_freq_et"/>
+                                <par value="7099" name="detune"/>
+                                <par value="0" name="coarse_detune"/>
+                                <par value="0" name="detune_type"/>
+                                <par_bool value="no" name="freq_envelope_enabled"/>
+                                <par_bool value="no" name="freq_lfo_enabled"/>
+                              </FREQUENCY_PARAMETERS>
+                            </VOICE>
+                            <VOICE id="2">
+                              <par_bool value="no" name="enabled"/>
+                            </VOICE>
+                            <VOICE id="3">
+                              <par_bool value="no" name="enabled"/>
+                            </VOICE>
+                            <VOICE id="4">
+                              <par_bool value="no" name="enabled"/>
+                            </VOICE>
+                            <VOICE id="5">
+                              <par_bool value="no" name="enabled"/>
+                            </VOICE>
+                            <VOICE id="6">
+                              <par_bool value="no" name="enabled"/>
+                            </VOICE>
+                            <VOICE id="7">
+                              <par_bool value="no" name="enabled"/>
+                            </VOICE>
+                          </ADD_SYNTH_PARAMETERS>
+                          <par_bool value="no" name="sub_enabled"/>
+                          <par_bool value="no" name="pad_enabled"/>
                         </INSTRUMENT_KIT_ITEM>
                         <INSTRUMENT_KIT_ITEM id="1">
                           <par_bool value="no" name="enabled"/>
@@ -408,125 +587,14 @@ GPL V 2 or later</string>
                       <INSTRUMENT_EFFECTS>
                         <INSTRUMENT_EFFECT id="0">
                           <EFFECT>
-                            <par value="7" name="type"/>
-                            <par value="0" name="preset"/>
-                            <EFFECT_PARAMETERS>
-                              <par_no id="0">
-                                <par value="72" name="par"/>
-                              </par_no>
-                              <par_no id="10">
-                                <par value="3" name="par"/>
-                              </par_no>
-                              <par_no id="11">
-                                <par value="111" name="par"/>
-                              </par_no>
-                              <par_no id="12">
-                                <par value="64" name="par"/>
-                              </par_no>
-                              <par_no id="13">
-                                <par value="61" name="par"/>
-                              </par_no>
-                              <par_no id="16">
-                                <par value="64" name="par"/>
-                              </par_no>
-                              <par_no id="17">
-                                <par value="64" name="par"/>
-                              </par_no>
-                              <par_no id="18">
-                                <par value="64" name="par"/>
-                              </par_no>
-                              <par_no id="21">
-                                <par value="64" name="par"/>
-                              </par_no>
-                              <par_no id="22">
-                                <par value="64" name="par"/>
-                              </par_no>
-                              <par_no id="23">
-                                <par value="64" name="par"/>
-                              </par_no>
-                              <par_no id="26">
-                                <par value="64" name="par"/>
-                              </par_no>
-                              <par_no id="27">
-                                <par value="64" name="par"/>
-                              </par_no>
-                              <par_no id="28">
-                                <par value="64" name="par"/>
-                              </par_no>
-                              <par_no id="31">
-                                <par value="64" name="par"/>
-                              </par_no>
-                              <par_no id="32">
-                                <par value="64" name="par"/>
-                              </par_no>
-                              <par_no id="33">
-                                <par value="64" name="par"/>
-                              </par_no>
-                              <par_no id="36">
-                                <par value="64" name="par"/>
-                              </par_no>
-                              <par_no id="37">
-                                <par value="64" name="par"/>
-                              </par_no>
-                              <par_no id="38">
-                                <par value="64" name="par"/>
-                              </par_no>
-                              <par_no id="41">
-                                <par value="64" name="par"/>
-                              </par_no>
-                              <par_no id="42">
-                                <par value="64" name="par"/>
-                              </par_no>
-                              <par_no id="43">
-                                <par value="64" name="par"/>
-                              </par_no>
-                              <par_no id="46">
-                                <par value="64" name="par"/>
-                              </par_no>
-                              <par_no id="47">
-                                <par value="64" name="par"/>
-                              </par_no>
-                              <par_no id="48">
-                                <par value="64" name="par"/>
-                              </par_no>
-                            </EFFECT_PARAMETERS>
+                            <par value="0" name="type"/>
                           </EFFECT>
                           <par value="0" name="route"/>
                           <par_bool value="no" name="bypass"/>
                         </INSTRUMENT_EFFECT>
                         <INSTRUMENT_EFFECT id="1">
                           <EFFECT>
-                            <par value="1" name="type"/>
-                            <par value="0" name="preset"/>
-                            <EFFECT_PARAMETERS>
-                              <par_no id="0">
-                                <par value="52" name="par"/>
-                              </par_no>
-                              <par_no id="1">
-                                <par value="64" name="par"/>
-                              </par_no>
-                              <par_no id="2">
-                                <par value="63" name="par"/>
-                              </par_no>
-                              <par_no id="3">
-                                <par value="24" name="par"/>
-                              </par_no>
-                              <par_no id="7">
-                                <par value="85" name="par"/>
-                              </par_no>
-                              <par_no id="8">
-                                <par value="5" name="par"/>
-                              </par_no>
-                              <par_no id="9">
-                                <par value="83" name="par"/>
-                              </par_no>
-                              <par_no id="10">
-                                <par value="1" name="par"/>
-                              </par_no>
-                              <par_no id="11">
-                                <par value="64" name="par"/>
-                              </par_no>
-                            </EFFECT_PARAMETERS>
+                            <par value="0" name="type"/>
                           </EFFECT>
                           <par value="0" name="route"/>
                           <par_bool value="no" name="bypass"/>
@@ -896,20 +964,20 @@ GPL V 2 or later</string>
               </ZynAddSubFX-data>
             </zynaddsubfx>
           </instrument>
-          <eldata fcut="14000" fres="0.5" ftype="0" fwet="0">
-            <elvol lspd_syncmode="0" rel="0.1" lspd="0.1" amt="0" pdel="0" lspd_denominator="4" latt="0" userwavefile="" lspd_numerator="4" lpdel="0" hold="0.5" lamt="0" sustain="0.5" att="0" ctlenvamt="0" x100="0" lshp="0" dec="0.5"/>
-            <elcut lspd_syncmode="0" rel="0.1" lspd="0.1" amt="0" pdel="0" lspd_denominator="4" latt="0" userwavefile="" lspd_numerator="4" lpdel="0" hold="0.5" lamt="0" sustain="0.5" att="0" ctlenvamt="0" x100="0" lshp="0" dec="0.5"/>
-            <elres lspd_syncmode="0" rel="0.1" lspd="0.1" amt="0" pdel="0" lspd_denominator="4" latt="0" userwavefile="" lspd_numerator="4" lpdel="0" hold="0.5" lamt="0" sustain="0.5" att="0" ctlenvamt="0" x100="0" lshp="0" dec="0.5"/>
+          <eldata fcut="14000" ftype="0" fwet="0" fres="0.5">
+            <elvol lspd_syncmode="0" dec="0.5" lpdel="0" latt="0" rel="0.1" sustain="0.5" att="0" lspd="0.1" lamt="0" lshp="0" hold="0.5" userwavefile="" x100="0" lspd_denominator="4" amt="0" ctlenvamt="0" pdel="0" lspd_numerator="4"/>
+            <elcut lspd_syncmode="0" dec="0.5" lpdel="0" latt="0" rel="0.1" sustain="0.5" att="0" lspd="0.1" lamt="0" lshp="0" hold="0.5" userwavefile="" x100="0" lspd_denominator="4" amt="0" ctlenvamt="0" pdel="0" lspd_numerator="4"/>
+            <elres lspd_syncmode="0" dec="0.5" lpdel="0" latt="0" rel="0.1" sustain="0.5" att="0" lspd="0.1" lamt="0" lshp="0" hold="0.5" userwavefile="" x100="0" lspd_denominator="4" amt="0" ctlenvamt="0" pdel="0" lspd_numerator="4"/>
           </eldata>
-          <chordcreator chord="0" chord-enabled="0" chordrange="1"/>
-          <arpeggiator arpdir="0" arptime_denominator="4" arpmode="0" arptime_numerator="4" arpgate="100" arp="0" arpcycle="0" arpskip="0" arptime_syncmode="0" arp-enabled="0" arprange="1" arpmiss="0" arptime="200"/>
-          <midiport writable="0" fixedinputvelocity="-1" basevelocity="63" outputcontroller="0" fixedoutputnote="-1" outputchannel="1" fixedoutputvelocity="-1" readable="0" inputchannel="0" inputcontroller="0" outputprogram="1"/>
-          <fxchain numofeffects="3" enabled="1">
-            <effect on="1" wet="1" autoquit_syncmode="0" autoquit_denominator="4" name="stereomatrix" autoquit="1" autoquit_numerator="4" gate="0">
+          <chordcreator chord="0" chordrange="1" chord-enabled="0"/>
+          <arpeggiator arptime_denominator="4" arprange="1" arptime_syncmode="0" arp="0" arpmode="0" arpmiss="0" arpgate="100" arp-enabled="0" arptime="200" arpdir="0" arpcycle="0" arpskip="0" arptime_numerator="4"/>
+          <midiport readable="0" outputcontroller="0" outputchannel="1" inputcontroller="0" writable="0" inputchannel="0" fixedoutputnote="-1" basevelocity="63" outputprogram="1" fixedinputvelocity="-1" fixedoutputvelocity="-1"/>
+          <fxchain numofeffects="4" enabled="1">
+            <effect autoquit_numerator="4" wet="1" autoquit="1" autoquit_syncmode="0" autoquit_denominator="4" on="1" name="stereomatrix" gate="0">
               <stereomatrixcontrols l-l="-1" l-r="0" r-r="1" r-l="0"/>
               <key/>
             </effect>
-            <effect on="1" wet="1" autoquit_syncmode="0" autoquit_denominator="4" name="ladspaeffect" autoquit="1" autoquit_numerator="4" gate="0">
+            <effect autoquit_numerator="4" wet="1" autoquit="1" autoquit_syncmode="0" autoquit_denominator="4" on="1" name="ladspaeffect" gate="0">
               <ladspacontrols ports="10">
                 <port00 data="100"/>
                 <port01 data="0"/>
@@ -919,7 +987,7 @@ GPL V 2 or later</string>
                 <port05 data="2"/>
                 <port06 data="0"/>
                 <port07 data="1"/>
-                <port08 data="0"/>
+                <port08 data="1"/>
                 <port09 data="0"/>
               </ladspacontrols>
               <key>
@@ -927,7 +995,7 @@ GPL V 2 or later</string>
                 <attribute value="tap_stereo_echo" name="plugin"/>
               </key>
             </effect>
-            <effect on="1" wet="1" autoquit_syncmode="0" autoquit_denominator="4" name="ladspaeffect" autoquit="1" autoquit_numerator="4" gate="0">
+            <effect autoquit_numerator="4" wet="1" autoquit="1" autoquit_syncmode="0" autoquit_denominator="4" on="1" name="ladspaeffect" gate="0">
               <ladspacontrols ports="7">
                 <port00 data="1.25"/>
                 <port01 data="90"/>
@@ -942,41 +1010,56 @@ GPL V 2 or later</string>
                 <attribute value="tap_chorusflanger" name="plugin"/>
               </key>
             </effect>
+            <effect autoquit_numerator="4" wet="1" autoquit="1" autoquit_syncmode="0" autoquit_denominator="4" on="1" name="eq" gate="0">
+              <Eq LP24="0" Peak2active="1" HP12="1" Peak4gain="0" AnalyseIn="1" HighShelfgain="0" HP24="0" Peak3bw="0.30000001" Peak4active="1" LPactive="0" HPactive="0" LP48="0" HP48="0" AnalyseOut="1" HighShelfres="1.4" Peak2gain="9.1800003" Highshelfactive="0" LP12="1" Lowshelfactive="1" Peak2bw="0.30000001" LowShelfres="1.4" Outputgain="3" Peak3active="0" LPres="0.70700002" LP="0" Peak4bw="0.30000001" Peak1active="0" Peak3gain="0" HP="0" HPres="0.70700002" Lowshelfgain="-3.6000001" Peak1bw="0.30000001">
+                <Inputgain id="5422223" value="0" scale_type="log"/>
+                <Peak1gain id="2973609" value="0" scale_type="log"/>
+                <HPfreq id="1239943" value="31.000004" scale_type="log"/>
+                <LowShelffreq id="7857182" value="132.76697" scale_type="log"/>
+                <Peak1freq id="2923543" value="119.99998" scale_type="log"/>
+                <Peak2freq id="5877375" value="678.06848" scale_type="log"/>
+                <Peak3freq id="6934192" value="1999.9996" scale_type="log"/>
+                <Peak4freq id="4429051" value="2881.123" scale_type="log"/>
+                <Highshelffreq id="5067405" value="11999.999" scale_type="log"/>
+                <LPfreq id="973646" value="17999.996" scale_type="log"/>
+              </Eq>
+              <key/>
+            </effect>
           </fxchain>
         </instrumenttrack>
-        <pattern pos="0" muted="0" type="1" name="Breathy Pad" steps="16">
-          <note pos="0" key="48" vol="100" pan="-29" len="576"/>
-          <note pos="96" key="47" vol="100" pan="19" len="480"/>
-          <note pos="192" key="40" vol="100" pan="0" len="384"/>
+        <pattern steps="16" pos="0" muted="0" type="1" name="Bass 1">
+          <note key="48" pan="-29" pos="0" len="576" vol="165"/>
+          <note key="47" pan="19" pos="96" len="480" vol="165"/>
+          <note key="40" pan="0" pos="192" len="384" vol="165"/>
         </pattern>
       </track>
     </trackcontainer>
-    <track muted="0" type="6" name="Automation track" solo="0">
+    <track solo="0" muted="0" type="6" name="Automation track">
       <automationtrack/>
-      <automationpattern pos="0" mute="0" prog="0" name="Numerator" tens="1" len="192"/>
-      <automationpattern pos="0" mute="0" prog="0" name="Denominator" tens="1" len="192"/>
-      <automationpattern pos="0" mute="0" prog="0" name="Tempo" tens="1" len="192"/>
-      <automationpattern pos="0" mute="0" prog="0" name="Master volume" tens="1" len="192"/>
-      <automationpattern pos="0" mute="0" prog="0" name="Master pitch" tens="1" len="192"/>
-      <automationpattern pos="0" mute="0" prog="0" name="Numerator" tens="1" len="0">
-        <time pos="0" value="4"/>
+      <automationpattern prog="0" mute="0" tens="1" pos="0" len="192" name="Numerator"/>
+      <automationpattern prog="0" mute="0" tens="1" pos="0" len="192" name="Denominator"/>
+      <automationpattern prog="0" mute="0" tens="1" pos="0" len="192" name="Tempo"/>
+      <automationpattern prog="0" mute="0" tens="1" pos="0" len="192" name="Master volume"/>
+      <automationpattern prog="0" mute="0" tens="1" pos="0" len="192" name="Master pitch"/>
+      <automationpattern prog="0" mute="0" tens="1" pos="0" len="0" name="Numerator">
+        <time value="4" pos="0"/>
         <object id="1830140"/>
       </automationpattern>
-      <automationpattern pos="0" mute="0" prog="0" name="Denominator" tens="1" len="0">
-        <time pos="0" value="4"/>
+      <automationpattern prog="0" mute="0" tens="1" pos="0" len="0" name="Denominator">
+        <time value="4" pos="0"/>
         <object id="2558538"/>
       </automationpattern>
     </track>
-    <fxmixer visible="1" minimized="0" height="333" maximized="0" x="57" width="543" y="518">
-      <fxchannel muted="0" volume="0.5" soloed="0" name="Master" num="0">
-        <fxchain numofeffects="3" enabled="1">
-          <effect on="1" wet="0.5" autoquit_syncmode="0" autoquit_denominator="4" name="reverbsc" autoquit="1" autoquit_numerator="4" gate="0">
-            <ReverbSCControls output_gain="0" input_gain="0" color="15000">
-              <size value="0.94" id="7562608" scale_type="linear"/>
+    <fxmixer y="471" height="333" minimized="0" x="667" width="543" maximized="0" visible="0">
+      <fxchannel soloed="0" num="0" volume="0.5" muted="0" name="Master">
+        <fxchain numofeffects="4" enabled="1">
+          <effect autoquit_numerator="4" wet="0.5" autoquit="1" autoquit_syncmode="0" autoquit_denominator="4" on="1" name="reverbsc" gate="0">
+            <ReverbSCControls input_gain="0" output_gain="0" color="15000">
+              <size id="7562608" value="0.70666665" scale_type="linear"/>
             </ReverbSCControls>
             <key/>
           </effect>
-          <effect on="1" wet="1" autoquit_syncmode="0" autoquit_denominator="4" name="ladspaeffect" autoquit="1" autoquit_numerator="4" gate="0">
+          <effect autoquit_numerator="4" wet="1" autoquit="1" autoquit_syncmode="0" autoquit_denominator="4" on="1" name="ladspaeffect" gate="0">
             <ladspacontrols ports="10">
               <port02 data="9.0900002"/>
               <port03 data="-16.470001"/>
@@ -994,23 +1077,23 @@ GPL V 2 or later</string>
               <attribute value="Eq2x2" name="plugin"/>
             </key>
           </effect>
-          <effect on="0" wet="1" autoquit_syncmode="0" autoquit_denominator="4" name="ladspaeffect" autoquit="1" autoquit_numerator="4" gate="0">
+          <effect autoquit_numerator="4" wet="1" autoquit="1" autoquit_syncmode="0" autoquit_denominator="4" on="0" name="ladspaeffect" gate="0">
             <ladspacontrols ports="10">
               <port04 data="0.060000002"/>
               <port05>
-                <data value="223.6068" id="6617076" scale_type="log"/>
+                <data id="6617076" value="223.6068" scale_type="log"/>
               </port05>
               <port06 data="2.75"/>
               <port07 data="2.75"/>
               <port08>
-                <data value="6000" id="4828058" scale_type="log"/>
+                <data id="4828058" value="6000" scale_type="log"/>
               </port08>
               <port09>
-                <data value="159.05415" id="7091154" scale_type="log"/>
+                <data id="7091154" value="159.05415" scale_type="log"/>
               </port09>
               <port010 data="0"/>
               <port011>
-                <data value="2514.8672" id="187333" scale_type="log"/>
+                <data id="187333" value="2514.8672" scale_type="log"/>
               </port011>
               <port012 data="0"/>
               <port013 data="0.5"/>
@@ -1020,18 +1103,22 @@ GPL V 2 or later</string>
               <attribute value="zita-reverb" name="plugin"/>
             </key>
           </effect>
+          <effect autoquit_numerator="4" wet="1" autoquit="1" autoquit_syncmode="0" autoquit_denominator="4" on="1" name="stereomatrix" gate="0">
+            <stereomatrixcontrols l-l="-0.34999999" l-r="1" r-r="0.37" r-l="1"/>
+            <key/>
+          </effect>
         </fxchain>
       </fxchannel>
     </fxmixer>
-    <ControllerRackView visible="0" minimized="0" height="200" maximized="0" x="896" width="350" y="382"/>
-    <pianoroll visible="1" minimized="0" height="490" maximized="0" x="31" width="860" y="66"/>
-    <automationeditor visible="0" minimized="0" height="400" maximized="0" x="632" width="860" y="450"/>
-    <projectnotes visible="0" minimized="0" height="400" maximized="0" x="700" width="860" y="10"><![CDATA[<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+    <ControllerRackView y="382" height="200" minimized="0" x="896" width="350" maximized="0" visible="0"/>
+    <pianoroll y="454" height="490" minimized="0" x="232" width="860" maximized="0" visible="0"/>
+    <automationeditor y="450" height="400" minimized="0" x="632" width="860" maximized="0" visible="1"/>
+    <projectnotes y="10" height="400" minimized="0" x="700" width="860" maximized="0" visible="0"><![CDATA[<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
 <html><head><meta name="qrichtext" content="1" /><style type="text/css">
 p, li { white-space: pre-wrap; }
-</style></head><body style=" font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;">
+</style></head><body style=" font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;">
 <p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Cantarell'; font-size:11pt;"><br /></p></body></html>]]></projectnotes>
-    <timeline lpstate="1" lp0pos="0" lp1pos="1152"/>
+    <timeline lp1pos="1152" lpstate="1" lp0pos="0"/>
     <controllers/>
   </song>
 </lmms-project>
